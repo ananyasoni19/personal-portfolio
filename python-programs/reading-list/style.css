@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef4fb;
+    color: #17324d;
+    margin: 0;
+    padding: 25px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px #0001;
+  }
+  
+  a {
+    color: #174a7e;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #174a7e;
+    margin-top: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 25px 0;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 7px;
+    background: #174a7e;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #0d355c;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    background: #f1f6fc;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+  }
+  
+  li button {
+    margin: 8px 6px 0 0;
+  }
+  
+  .read-status {
+    color: #267344;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background: #b83232;
+  }
+  
+  #message {
+    color: #267344;
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      padding: 12px;
+    }
+  
+    .container {
+      margin: 10px auto;
+      padding: 18px;
+    }
+  }
+  

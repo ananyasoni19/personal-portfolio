@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Reading List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <a href="../index.html">← Back to Portfolio</a>
+
+    <h1>📚 My Reading List</h1>
+    <p>Keep track of the books you want to read.</p>
+
+    <form id="book-form">
+      <input id="book-title" type="text"
+        placeholder="Enter book title" required>
+
+      <input id="book-author" type="text"
+        placeholder="Enter author name" required>
+
+      <button type="submit">Add Book</button>
+    </form>
+
+    <p id="message" aria-live="polite"></p>
+
+    <h2>My Books</h2>
+    <p id="book-count">Books: 0</p>
+    <ul id="book-list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
